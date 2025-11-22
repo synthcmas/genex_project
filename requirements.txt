@@ -1,6 +1,7 @@
 numpy
 pandas
 matplotlib
-ipywidgets
+ipywidgets>=8.0
+notebook>=6.5
 ipython
 jupyter

@@ -1,2 +1,2 @@
-#!/bin/bash
-jupyter nbextension enable --py widgetsnbextension --sys-prefix
+pip install --quiet widgetsnbextension
+jupyter nbextension enable --py widgetsnbextension
