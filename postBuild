@@ -1,4 +1,6 @@
 #!/bin/bash
-# Install and enable ipywidgets for classic notebook
-pip install --quiet widgetsnbextension
-jupyter nbextension enable --py widgetsnbextension --sys-prefix
+# postBuild script for Binder
+
+# Install Python dependencies
+pip install --upgrade pip
+pip install -r requirements.txt

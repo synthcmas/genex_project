@@ -1,12 +1,7 @@
-# Core notebook environment
 notebook>=6.5
-
-# Widgets for interactivity
-ipywidgets>=8.0
-widgetsnbextension>=4.0
-
-# Common scientific packages
-numpy
-pandas
+ipywidgets
+widgetsnbextension
 matplotlib
+pandas
+numpy
 seaborn
