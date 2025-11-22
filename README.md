@@ -41,6 +41,4 @@ You can launch the interactive notebook without installing anything locally:
 ## Notes
 
 - The notebook is interactive using `ipywidgets`.  
-- Ensure `data/` and `plot_data/` are present for the notebook to run correctly.  
 - Ensure `data/` and `plot_data/` are present for the notebook to run correctly.
-- Python plotting uses `matplotlib`; seaborn is optional.
