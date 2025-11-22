@@ -16,6 +16,14 @@ Simulations use the Gillespie algorithm to follow the chemical master equations 
 
 ---
 
+## Data
+
+You can download the relevant datasets from Kaggle:
+
+[CITE-seq Data for Open Problems in Multimodal Single-Cell Analysis](https://www.kaggle.com/competitions/open-problems-multimodal/data)
+
+Place the downloaded files in the `data/` directory before running the notebook.
+
 ## Running interactively via Binder
 
 You can launch the interactive notebook without installing anything locally:
