@@ -1,6 +1,20 @@
-# genex_project
+# GeneXplorer: Interactive 3-Stage Gene Expression Simulator
 
-This repository contains the interactive `run_genex.ipynb` notebook that wraps the Fortran `genex` simulation. 
+Welcome to **GeneXplorer**, an interactive notebook that simulates mRNA and protein distributions for a 3-stage gene expression model and compares them against empirical CITE-seq data for a given gene. Explore how transcriptional, translational, and promoter kinetics shape gene expression variability!  
+
+The main file to run is `run_genex.ipynb`, which provides an interactive interface to vary model parameters and execute gene expression simulations. The notebook relies on `genex_wrapper.py` (located in the `src` directory) to compile and run the underlying Fortran `genex` code in the background. Make sure the input data are available in the `data` directory for the simulations to run correctly.
+
+The key parameters are:  
+
+- Transcriptional rate (`aa`)  
+- Translational rate (`bb`)  
+- mRNA degradation rate (`gamma`)  
+- Promoter switching on rate (`kappa0`)  
+- Promoter switching off rate (`kappa1`)  
+
+Simulations use the Gillespie algorithm to follow the chemical master equations described in [this paper](https://www.pnas.org/doi/10.1073/pnas.0803850105). 
+
+---
 
 ## Running interactively via Binder
 
