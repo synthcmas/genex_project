@@ -6,6 +6,7 @@ import subprocess
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 PROTEIN_DEGRADATION_RATE = 0.0005
 
@@ -153,7 +154,7 @@ def compute_binned_theory(df, bin_start, bin_stop):
     return theory / sum(theory)
 
 def plot_distribution(bin_mean, theory, data_prob, data_err, xlabel, filename, param_text):
-    plt.style.use('seaborn-darkgrid')
+    sns.set_style("darkgrid")
     fig, ax = plt.subplots(figsize=(7,7), dpi=80, facecolor='#f7f7f7')
     ax.set_facecolor('white')
 
