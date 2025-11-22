@@ -1,2 +1,4 @@
+#!/bin/bash
+# Install and enable ipywidgets for classic notebook
 pip install --quiet widgetsnbextension
-jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
