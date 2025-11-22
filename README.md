@@ -7,7 +7,7 @@ This repository contains the interactive `run_genex.ipynb` notebook that wraps t
 You can launch the interactive notebook without installing anything locally:
 
 1. Go to [https://mybinder.org/](https://mybinder.org/).
-2. In the **GitHub repository name** field, enter your repository URL:
+2. In the **GitHub repository name** field, enter your repository URL: https://github.com/synthcmas/genex_project/
 3. In the **Path to a notebook file** field, enter: run_genex.ipynb
 4. Click **Launch**. Binder will build the environment and then open the notebook in your browser.
 
