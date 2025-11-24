@@ -1,7 +1,7 @@
-notebook>=6.5
-ipywidgets
-widgetsnbextension
-matplotlib
-pandas
 numpy
-seaborn
+pandas
+matplotlib
+ipywidgets>=8.0
+notebook>=6.5
+ipython
+jupyter
